@@ -1,0 +1,28 @@
+.element,
+html {
+    scrollbar-width: none
+}
+
+html::-webkit-scrollbar,
+.element::-webkit-scrollbar {
+    display: none
+}
+
+body {
+    background-color: #11101D;
+}
+
+.row {
+    height: 100vh;
+}
+
+form {
+    color: #fff;
+    transition: all 0.2s ease;
+}
+
+form:hover {
+    border-radius: 7px;
+    background-color: #fff;
+    color: #111;
+}

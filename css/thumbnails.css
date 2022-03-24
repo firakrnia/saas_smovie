@@ -1,0 +1,51 @@
+.element,
+html {
+    scrollbar-width: none
+}
+
+html::-webkit-scrollbar,
+.element::-webkit-scrollbar {
+    display: none
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    background-color: #11101D;
+}
+
+.logo img {
+    height: 40px;
+}
+
+form .btn {
+    border-color: #9B59B6;
+    color: #9B59B6;
+}
+
+form .btn:hover {
+    background-color: #9B59B6;
+    border-color: #9B59B6;
+
+}
+
+.dropdown ul li a:hover {
+    background-color: #11101D;
+    color: #fff;
+}
+
+#content img {
+    filter: brightness(.5);
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+
+#content img:hover {
+    filter: brightness(1);
+}
+
+section {
+    padding-top: 4rem;
+}

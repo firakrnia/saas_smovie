@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Reem+Kufi&display=swap');
+
+html {
+    scrollbar-width: none
+}
+
+html::-webkit-scrollbar,
+.element::-webkit-scrollbar {
+    display: none
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    background-color: #11101D;
+}
+
+.logo img {
+    height: 40px;
+}
+
+#trailer {
+    background-color: #111;
+    padding-top: 4rem;
+}
+
+#info {
+    padding-top: 2rem;
+    cursor: default;
+}
+
+.imdb {
+    font-family: 'Oswald',
+        sans-serif;
+}
+
+#info p {
+    background-color: rgb(219, 219, 219);
+    font-size: 12px;
+}
+
+#sinopsis p {
+    text-align: justify;
+    font-size: 15px;
+    cursor: default;
+}
+
+#cast img {
+    width: 100px;
+}
+
+#cast h6 {
+    font-weight: bold;
+}
+
+#cast p {
+    font-size: 12px;
+}
+
+#cast .card {
+    border: none;
+}
+
+#cast .bdr {
+    border-left: 5px solid #11101D;
+}
+
+#cast .img-thumbnail {
+    transition: all 0.2s ease;
+}
+
+#cast .img-thumbnail:hover {
+    background-color: #11101D;
+}
